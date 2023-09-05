@@ -27,6 +27,20 @@ def choixcalcul():
         case _:
             print("Choix invalide.")    
         
+        case '3':
+            result = multiplication(num1, num2)
+        case '4':
+            result = "r"
+        case _:
+            print("Choix invalide.")    
+        case '3':
+            result = multiplication(num1, num2)
+        case '4':
+            result = "r"
+        case _:
+            print("Choix invalide.")    
+        
+        
     print(result)
     
 if __name__=="__main__":
